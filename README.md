@@ -13,8 +13,7 @@ This framework is designed to be used as a boilerplate template to start automat
 Prerequisites:
 NodeJS 14(or above) and Java 8 (or above)
 
-- Clone the repo using the below URL
-https://github.com/jagota-s/playwright-typescript-pom.git
+- Clone the repo
 - Navigate to the folder and install npm packages using:
 ```bash
 - npm install
@@ -69,15 +68,4 @@ docker exec -it {container id} bash
 npm run test
 ```
 
-## GitHub Actions
-
-- The workflow file is in directory .github/workflows named playwright.yml
-- Every push or pull request action will trigger the workflow
-- Results can be seen on the 'Actions' tab in the repo. 
-
-
-## Contributing
-
-Pull requests are welcome. For significant changes, please open an issue first
-to discuss what you would like to change.
 
